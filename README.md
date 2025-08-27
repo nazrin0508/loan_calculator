@@ -81,7 +81,7 @@
                     $host = "localhost";
                     $user = "root";
                     $pass = "";
-                    $dbname = "loan_app";
+                    $dbname = "loan_db";
 
     3️⃣ Run Project
 
