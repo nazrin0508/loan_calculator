@@ -91,7 +91,7 @@
 
         *   Open in browser:
 
-            http://localhost/monthlyloancalculator/
+            http://localhost/loancalculator/
 
 
 📜 License
