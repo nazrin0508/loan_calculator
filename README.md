@@ -91,7 +91,7 @@
 
         *   Open in browser:
 
-            http://localhost/loancalculator/
+            http://localhost/loan_calculator/
 
 
 📜 License
