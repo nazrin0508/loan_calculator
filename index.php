@@ -33,15 +33,15 @@ $records = $stmt->fetchAll(PDO::FETCH_ASSOC);
         <form id="loanForm" class="row g-3">
             <div class="col-md-4">
                 <label class="form-label">Loan Amount</label>
-                <input type="number" id="loan_amount" name="loan_amount" class="form-control" placeholder="Enter amount" min="1" required>
+                <input type="number" id="loan_amount" name="loan_amount" class="form-control" placeholder="Enter amount" min="1">
             </div>
             <div class="col-md-4">
                 <label class="form-label">Interest Rate (%)</label>
-                <input type="number" id="interest_rate" name="interest_rate" class="form-control" placeholder="Enter rate" min="1" required>
+                <input type="number" id="interest_rate" name="interest_rate" class="form-control" placeholder="Enter rate" min="1">
             </div>
             <div class="col-md-4">
                 <label class="form-label">Months to Pay</label>
-                <input type="number" id="months" name="months" class="form-control" placeholder="Enter months" min="1" required>
+                <input type="number" id="months" name="months" class="form-control" placeholder="Enter months" min="1">
             </div>
             <div class="col-12 text-center">
                 <button type="submit" class="btn btn-primary px-4 mt-2">Calculate Monthly Payment</button>

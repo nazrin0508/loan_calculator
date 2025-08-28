@@ -6,11 +6,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $interest_rate = (int) $_POST['interest_rate'];
     $months = (int) $_POST['months'];
 
-    if ($loan_amount <= 0 || $interest_rate <= 0 || $months <= 0) {
-        echo "All fields are mandatory and must be positive numbers.";
-        exit;
-    }
-
     // Calculate monthly interest
     $monthly_interest = ($loan_amount * $interest_rate) / (100 * $months);
 
